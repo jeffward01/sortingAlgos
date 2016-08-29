@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sortingAlgos\BubbleSort.cs" />
+    <Compile Include="sortingAlgos\CountSort.cs" />
+    <Compile Include="sortingAlgos\HeapSort.cs" />
+    <Compile Include="sortingAlgos\InsertionSort.cs" />
+    <Compile Include="sortingAlgos\MergeSort.cs" />
+    <Compile Include="sortingAlgos\QuickSort.cs" />
+    <Compile Include="sortingAlgos\RadixSort.cs" />
+    <Compile Include="sortingAlgos\SelectionSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="isortingAlgos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
